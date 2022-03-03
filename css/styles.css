@@ -1,0 +1,42 @@
+page-header {
+  background-color: #ffffff;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.mailto {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.site-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+main {
+  background-color: #ffffff;
+}
+.section-captain {
+  background-color: #2f303a;
+  width: 1600px;
+}
+footer {
+  background-color: #2f303a;
+  width: 1600px;
+}
