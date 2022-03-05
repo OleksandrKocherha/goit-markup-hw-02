@@ -1,6 +1,3 @@
-page-header {
-  background-color: #ffffff;
-}
 /* Логотип */
 .logo-link {
   text-decoration: none;
@@ -18,6 +15,10 @@ page-header {
 .logo-black {
   color: black;
 }
+.link-current {
+  color: #2196f3;
+}
+/* E-mail */
 .mailto {
   font-family: Roboto;
   font-weight: 700;
@@ -26,6 +27,7 @@ page-header {
   font-size: 14px;
   line-height: 16px;
 }
+/* Телефон */
 .tel {
   font-family: Roboto;
   font-style: normal;
