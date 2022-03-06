@@ -4,6 +4,7 @@ body {
 ul {
   list-style: none;
 }
+
 /* Логотип */
 .logo-link {
   text-decoration: none;
@@ -85,6 +86,7 @@ main {
   text-transform: uppercase;
   color: #ffffff;
 }
+/* Кнопка */
 .btn {
   position: absolute;
   width: 136px;
@@ -112,7 +114,129 @@ main {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-footer {
-  background-color: #2f303a;
+.btn:hover {
+  color: teal;
+}
+/* Section 1 */
+.section .subtitle {
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.section .text {
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.user {
   width: 1600px;
+  background: #f5f4fa;
+}
+.user .name {
+  width: 109px;
+  height: 19px;
+  left: 596px;
+  top: 1925px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.user .text {
+  width: 130px;
+  height: 19px;
+  left: 285px;
+  top: 1954px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+
+  background: #2f303a;
+}
+.footer .logo-blue {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+}
+.footer .logo-black {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+}
+.address {
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2208px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
