@@ -291,9 +291,50 @@ main {
   color: #2196f3;
 }
 /* Portfolio */
+.list .button {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+}
 .list .button:hover {
   color: #2196f3;
 }
+
 .header {
   background-color: #fff;
+}
+.item .title {
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 576px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.title-text {
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 616px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
