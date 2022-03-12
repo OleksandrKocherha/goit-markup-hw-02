@@ -1,20 +1,19 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
+
 ul {
   list-style: none;
 }
-
 /* Логотип */
 .logo-link {
-  text-decoration: none;
-}
-.logo-link {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  text-decoration: none;
 }
 .logo-blue {
   color: #2196f3;
@@ -25,15 +24,31 @@ ul {
 .link-current {
   color: #2196f3;
 }
-/* E-mail */
-.mailto {
-  font-family: Roboto;
-  font-weight: 700;
+.site-nav {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.site-nav a {
+  text-decoration: none;
+}
+.site-nav .link {
+  color: #212121;
+}
+
+/* E-mail */
+.mailto {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 .mailto:hover {
   color: #2196f3;
@@ -46,37 +61,24 @@ ul {
   font-size: 14px;
   line-height: 16px;
   color: #757575;
+  text-decoration: none;
 }
 .tel:hover {
   color: #2196f3;
 }
-.site-nav {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-}
-.site-nav .link {
-  color: #212121;
-}
+
 main {
   background-color: #ffffff;
 }
 .section-captain {
   background-color: #2f303a;
   width: 1600px;
-  height: 600px;
+  height: 300px;
   left: 0px;
   top: 80px;
 }
 .section-captain-title {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -88,16 +90,11 @@ main {
 }
 /* Кнопка */
 .btn {
-  position: absolute;
-  width: 136px;
-  height: 30px;
-  left: 732px;
-  top: 440px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px
   display: flex;
   align-items: center;
   text-align: center;
@@ -120,79 +117,72 @@ main {
 
 /* Section 1 */
 .section .subtitle {
-  width: 270px;
-  height: 16px;
-  left: 215px;
-  top: 774px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 
   color: #212121;
 }
 .section .text {
-  width: 270px;
-  height: 75px;
-  left: 215px;
-  top: 800px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-
-  letter-spacing: 0.03em;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
 
   color: #757575;
+}
+.content .title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
 }
 .user {
   width: 1600px;
   background: #f5f4fa;
 }
-.user .name {
-  width: 109px;
-  height: 19px;
-  left: 596px;
-  top: 1925px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-
+.user .title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.user h3 {
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
   color: #212121;
 }
-.user .text {
-  width: 130px;
-  height: 19px;
-  left: 285px;
-  top: 1954px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
+.user p {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #757575;
 }
 .name-text {
-  text-align: center;
-}
+  text-align: center;}
+
 .footer {
   width: 1600px;
-  height: 252px;
+  height: 180px;
   left: 0px;
   top: 2097px;
 
@@ -202,90 +192,58 @@ main {
   text-decoration: none;
 }
 .footer .logo-blue {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 2157px;
-
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-
-  letter-spacing: 0.03em;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
 }
-.footer .logo-black {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 2157px;
-
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-
-  letter-spacing: 0.03em;
+.footer .logo-white {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color:white
 }
 .footer .address {
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2208px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #ffffff;
 }
 .footer .text {
+  text-decoration: none;
   color: #ffffff;
 }
 .footer .text:hover {
   color: #2196f3;
 }
 .footer .mailto {
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2238px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
 .footer .mailto:hover {
   color: #2196f3;
 }
 .footer .tel {
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2268px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
 .footer .tel:hover {
   color: #2196f3;
