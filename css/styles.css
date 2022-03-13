@@ -263,34 +263,84 @@ main {
   color: #2196f3;
 }
 /* Порфолио */
-.list .button {
+
+.button-hero {
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button-hero:hover {
+  color: #2196f3;
+}
+.button-site {
   width: 128px;
   height: 38px;
   left: 576px;
   top: 174px;
+  background: #f5f4fa;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
 }
-.list .button:hover {
+.button-site:hover {
+  color: #2196f3;
+}
+.button-app {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: #f5f4fa;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+.button-app:hover {
+  color: #2196f3;
+}
+.button-design {
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.button-design:hover {
+  color: #2196f3;
+}
+.button-mark {
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.button-mark:hover {
   color: #2196f3;
 }
 
 .header {
   background-color: #fff;
 }
-.item .title {
+.title h2 {
   width: 322px;
   height: 36px;
   left: 239px;
   top: 576px;
-
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-
+  line-height: 2;
   letter-spacing: 0.06em;
-
   color: #212121;
 }
 .title-text {
@@ -298,15 +348,9 @@ main {
   height: 30px;
   left: 239px;
   top: 616px;
-
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
-
+  line-height: 1.87;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
