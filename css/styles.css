@@ -36,6 +36,7 @@ ul {
 .link-current {
   color: #2196f3;
 }
+/* Навигация */
 .site-nav {
   font-family: "Roboto";
   font-style: normal;
@@ -192,7 +193,7 @@ main {
 .name-text {
   text-align: center;
 }
-
+/* Подвал */
 .footer {
   width: 1600px;
   height: 180px;
@@ -261,7 +262,7 @@ main {
 .footer .tel:hover {
   color: #2196f3;
 }
-/* Portfolio */
+/* Порфолио */
 .list .button {
   width: 128px;
   height: 38px;
