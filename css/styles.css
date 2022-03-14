@@ -263,80 +263,15 @@ main {
   color: #2196f3;
 }
 /* Порфолио */
-
-.button-hero {
-  width: 73px;
-  height: 38px;
-  left: 495px;
-  top: 174px;
-  background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+.button {
+  text-decoration: none;
+  font-family: inherit;
+  cursor: pointer;
 }
-.button-hero:hover {
-  color: #2196f3;
-}
-.button-site {
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
-  background: #f5f4fa;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-}
-.button-site:hover {
-  color: #2196f3;
-}
-.button-app {
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
-  background: #f5f4fa;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-}
-.button-app:hover {
-  color: #2196f3;
-}
-.button-design {
-  width: 103px;
-  height: 38px;
-  left: 865px;
-  top: 174px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-}
-.button-design:hover {
-  color: #2196f3;
-}
-.button-mark {
-  width: 130px;
-  height: 38px;
-  left: 976px;
-  top: 174px;
-  background: #f5f4fa;
-  border-radius: 4px;
-}
-.button-mark:hover {
-  color: #2196f3;
-}
-
 .header {
   background-color: #fff;
 }
-.title h2 {
-  width: 322px;
-  height: 36px;
-  left: 239px;
-  top: 576px;
+.item .title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -344,10 +279,6 @@ main {
   color: #212121;
 }
 .title-text {
-  width: 322px;
-  height: 30px;
-  left: 239px;
-  top: 616px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
