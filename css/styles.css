@@ -5,6 +5,7 @@ body {
 ul {
   list-style: none;
 }
+
 /* Логотип */
 .logo-link {
   font-family: "Raleway";
@@ -262,21 +263,24 @@ main {
   color: #2196f3;
 }
 /* Порфолио */
-a[href="#Все"] {
+.button-current {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   color: white;
   background-color: #2196f3;
   border: none;
   display: inline-block;
-  text-decoration: none;
 }
-.button {
+.list .button {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-decoration: none;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
