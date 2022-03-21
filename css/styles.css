@@ -267,6 +267,7 @@ a[href="#Все"] {
   background-color: #2196f3;
   border: none;
   display: inline-block;
+  text-decoration: none;
 }
 .button {
   font-family: "Roboto";
